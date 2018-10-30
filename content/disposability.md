@@ -1,19 +1,20 @@
 ---
-title: "VIIII. Disposability"
+title: "IX. Disposability"
 url: /disposability-talk
 date: "2018-09-01"
 description: "codebase stuff."
 image: "img/ian-keefe-661408-unsplash.jpg"
 credit: "Photo by Ian Keefe on Unsplash"
 thumbnail: "img/ian-keefe-661408-unsplash-tn.jpg"
+weight: "10"
 categories:
 - Demo
 ---
 ### Maximize robustness with fast startup and graceful shutdown
 
-**The X-factor CNF's [processes](./processes) are *disposable*, meaning they can be started or stopped at a moment's notice.**  This facilitates fast elastic scaling, rapid deployment of [code](./codebase) or [config](./config) changes, and robustness of production deploys.
+**The X-factor CNF's [processes](/processes-talk) are *disposable*, meaning they can be started or stopped at a moment's notice.**  This facilitates fast elastic scaling, rapid deployment of [code](/codebase-talk) or [config](/config-talk) changes, and robustness of production deploys.
 
-Processes should strive to **minimize startup time**.  Ideally, a process takes a few seconds from the time the launch command is executed until the process is up and ready to receive requests or jobs.  Short startup time provides more agility for the [release](./build-release-run) process and scaling up; and it aids robustness, because the process manager can more easily move processes to new physical machines when warranted.
+Processes should strive to **minimize startup time**.  Ideally, a process takes a few seconds from the time the launch command is executed until the process is up and ready to receive requests or jobs.  Short startup time provides more agility for the [release](/build-release-run-talk) process and scaling up; and it aids robustness, because the process manager can more easily move processes to new physical machines when warranted.
 
 Processes **shut down gracefully when they receive a [SIGTERM](http://en.wikipedia.org/wiki/SIGTERM)** signal from the process manager.  For a web process, graceful shutdown is achieved by ceasing to listen on the service port (thereby refusing any new requests), allowing any current requests to finish, and then exiting.  Implicit in this model is that HTTP requests are short (no more than a few seconds), or in the case of long polling, the client should seamlessly attempt to reconnect when the connection is lost.
 

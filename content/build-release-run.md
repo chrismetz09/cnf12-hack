@@ -6,6 +6,7 @@ description: "codebase stuff."
 image: "img/pawel-czerwinski-1123515-unsplash.jpg"
 credit: "Photo by Paweł Czerwiński on Unsplash"
 thumbnail: "img/pawel-czerwinski-1123515-unsplash-tn.jpg"
+weight: "6"
 categories:
 - Demo
 ---

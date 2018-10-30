@@ -6,6 +6,7 @@ description: "codebase stuff."
 image: "img/jon-flobrant-168054-unsplash.jpg"
 credit: "Photo by Jon Flobrant on Unsplash"
 thumbnail: "img/jon-flobrant-168054-unsplash-tn.jpg"
+weight: "14"
 categories:
 - Demo
 draft: true

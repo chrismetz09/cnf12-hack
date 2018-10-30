@@ -1,11 +1,12 @@
 ---
-title: "IV. Backing services"
+title: "IV. Backing Services"
 url: /backing-services-talk
 date: "2018-09-01"
 description: "codebase stuff."
 image: "img/michal-dolnik-1122764-unsplash.jpg"
 credit: "Photo by Michal Dolnik on Unsplash"
 thumbnail: "img/michal-dolnik-1122764-unsplash-tn.jpg"
+weight: "5"
 categories:
 - Demo
 ---

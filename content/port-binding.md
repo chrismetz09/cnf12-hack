@@ -6,6 +6,7 @@ description: "codebase stuff."
 image: "img/kym-1121852-unsplash.jpg"
 credit: "Photo by Kym on Unsplash"
 thumbnail: "img/kym-1121852-unsplash-tn.jpg"
+weight: "8"
 categories:
 ---
 ### Not recommended in X-factor CNFs. However, if necessary, export services via port binding

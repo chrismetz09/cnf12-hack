@@ -1,12 +1,13 @@
 ---
 title: Introduction
-date: "2018-09-03"
+date: "2018-01-01"
 url: "/about-story"
 description: "Story is a beautiful responsive Hugo blog theme with many extra features including presentations, math typesetting, and search."
 tldr: "Story is a beautiful responsive Hugo blog theme with powerful extra features out-of-the-box. It is targeted to people who want to showcase their technical work online."
 credit: "https://unsplash.com/photos/o-ubWHV29Uk"
 image: "img/unsplash-photos-o-ubWHV29Uk.jpg"
-thumbnail: img/unsplash-photos-o-ubWHV29Uk.tn-500x500.jpg
+thumbnail: "img/unsplash-photos-o-ubWHV29Uk.tn-500x500.jpg"
+weight: "1"
 categories:
 - Demo
 ---
@@ -70,16 +71,16 @@ Explicitly declare and isolate dependencies
 ### [III. Config](/config-talk)
 Store config in the environment
 
-### [IV. Backing services](/backing-services-talk)
+### [IV. Backing Services](/backing-services-talk)
 Treat backing cloud-native services as attached resources
 
-### [V. Build, release, run](/build-release-run-talk)
+### [V. Build, Release, Run](/build-release-run-talk)
 Strictly separate build and run stages
 
 ### [VI. Processes](/processes-talk)
 Execute the app as one or more stateless processes
 
-### [VII. Port binding](/port-binding-talk)
+### [VII. Port Binding](/port-binding-talk)
 Not recommended in X-factor CNFs. However, if necessary, export services via port binding
 
 ### [VIII. Concurrency](/concurrency-talk)
@@ -88,27 +89,27 @@ Scale out via the process model
 ### [IX. Disposability](/disposability-talk)
 Maximize robustness with fast startup and graceful shutdown
 
-### [X. Dev/prod parity](/dev-prod-parity-talk)
+### [X. Dev/Prod Parity](/dev-prod-parity-talk)
 Keep development, staging, and production as similar as possible
 
 ### [XI. Logs](/logs-talk)
 Treat logs as event streams
 
-### [XII. Admin processes](/admin-processes-talk)
+### [XII. Admin Processes](/admin-processes-talk)
 Run admin/management tasks as one-off processes
 
 ### -- Factors unique to X-CNFs --
 
-### [XIII. Do not require kernel modifications or modules](/process-containers-talk)
+### [XIII. Do Not Require Kernel Modifications or Modules](/process-containers-talk)
 Run in an unmodified OS environment, without kernel modifications or custom modules
 
 ### [XIV. Payloads](/payloads-talk)
 Explicitly state payload types consumed and produced
 
-### [XV. Interface mechanisms](/mechanisms-talk)
+### [XV. Interface Mechanisms](/mechanisms-talk)
 List mechanisms supported in order of preference
 
-### [XVI. Bind by payload and mechanism](/bind-payload-mechanism-talk)
+### [XVI. Bind by Payload and Mechanism](/bind-payload-mechanism-talk)
 Bind to other CNFs by payload and mechanism rather than by upstream or downstream CNF type
 
 ### [XVII. Metrics](/metrics-as-event-streams-talk)

@@ -6,12 +6,13 @@ description: "codebase stuff."
 image: "img/william-daigneault-723419-unsplash.jpg"
 credit: "Photo by William Daigneault on Unsplash"
 thumbnail: "img/william-daigneault-723419-unsplash-tn.jpg"
+weight: "11"
 categories:
 - Demo
 ---
 ### Keep development, staging, and production as similar as possible
 
-Historically, there have been substantial gaps between development (a developer making live edits to a local [deploy](./codebase) of the CNF) and production (a running deploy of the CNF accessed by end users).  These gaps manifest in three areas:
+Historically, there have been substantial gaps between development (a developer making live edits to a local [deploy](/codebase-talk) of the CNF) and production (a running deploy of the CNF accessed by end users).  These gaps manifest in three areas:
 
 * **The time gap:** A developer may work on code that takes days, weeks, or even months to go into production.
 * **The personnel gap**: Developers write code, ops engineers deploy it.
@@ -48,7 +49,7 @@ Summarizing the above into a table:
   </tr>
 </table>
 
-[Backing Cloud-Native services](./backing-services), such as the CNF's database, queueing system, or cache, is one area where dev/prod parity is important.  Many languages offer libraries which simplify access to the backing Cloud-Native service, including *adapters* to different types of services.  Some examples are in the table below.
+[Backing Cloud-Native services](/backing-services-talk), such as the CNF's database, queueing system, or cache, is one area where dev/prod parity is important.  Many languages offer libraries which simplify access to the backing Cloud-Native service, including *adapters* to different types of services.  Some examples are in the table below.
 
 <table>
   <tr>

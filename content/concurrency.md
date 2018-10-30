@@ -6,6 +6,7 @@ description: "codebase stuff."
 image: "img/samuel-zeller-381181-unsplash.jpg"
 credit: "Photo by Samuel Zeller on Unsplash"
 thumbnail: "img/samuel-zeller-381181-unsplash-tn.jpg"
+weight: "9"
 categories:
 ---
 ### Scale out via the process model
