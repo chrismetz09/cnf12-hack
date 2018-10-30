@@ -3,16 +3,16 @@ title: "VIII. Concurrency"
 url: /concurrency-talk
 date: "2018-09-01"
 description: "codebase stuff."
-image: "img/unsplash-photos-nehfi_SfqtU.jpg"
-credit: "https://unsplash.com/photos/nehfi_SfqtU"
-thumbnail: "img/unsplash-photos-nehfi_SfqtU.tn-500x500.jpg"
+image: "img/samuel-zeller-381181-unsplash.jpg"
+credit: "Photo by Samuel Zeller on Unsplash"
+thumbnail: "img/samuel-zeller-381181-unsplash-tn.jpg"
 categories:
 ---
 ### Scale out via the process model
 
 Any computer program, once run, is represented by one or more processes.  Apps have taken a variety of process-execution forms.  For example, PHP processes run as child processes of Apache, started on demand as needed by request volume.  Java processes take the opposite approach, with the JVM providing one massive uberprocess that reserves a large block of system resources (CPU and memory) on startup, with concurrency managed internally via threads.  In both cases, the running process(es) are only minimally visible to the developers of the CNF.
 
-![Scale is expressed as running processes, workload diversity is expressed as process types.](/images/process-types.png)
+![Scale is expressed as running processes, workload diversity is expressed as process types.](/img/process-types.png)
 
 **In the X-factor CNF, processes are a first class citizen.**  Processes in the X-factor app take strong cues from [the unix process model for running service daemons](https://adam.herokuapp.com/past/2011/5/9/applying_the_unix_process_model_to_web_apps/).  Using this model, the developer can architect their CNF to handle diverse workloads by assigning each type of work to a *process type*.  For example, HTTP requests may be handled by a web process, and long-running background tasks handled by a worker process.
 

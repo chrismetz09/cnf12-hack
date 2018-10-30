@@ -3,9 +3,9 @@ title: "VII. Port Binding"
 url: /port-binding-talk
 date: "2018-09-01"
 description: "codebase stuff."
-image: "img/unsplash-photos-nehfi_SfqtU.jpg"
-credit: "https://unsplash.com/photos/nehfi_SfqtU"
-thumbnail: "img/unsplash-photos-nehfi_SfqtU.tn-500x500.jpg"
+image: "img/kym-1121852-unsplash.jpg"
+credit: "Photo by Kym on Unsplash"
+thumbnail: "img/kym-1121852-unsplash-tn.jpg"
 categories:
 ---
 ### Not recommended in X-factor CNFs. However, if necessary, export services via port binding

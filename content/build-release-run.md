@@ -3,9 +3,9 @@ title: "V. Build, Release, Run"
 url: /build-release-run-talk
 date: "2018-09-01"
 description: "codebase stuff."
-image: "img/unsplash-photos-nehfi_SfqtU.jpg"
-credit: "https://unsplash.com/photos/nehfi_SfqtU"
-thumbnail: "img/unsplash-photos-nehfi_SfqtU.tn-500x500.jpg"
+image: "img/pawel-czerwinski-1123515-unsplash.jpg"
+credit: "Photo by Paweł Czerwiński on Unsplash"
+thumbnail: "img/pawel-czerwinski-1123515-unsplash-tn.jpg"
 categories:
 - Demo
 ---

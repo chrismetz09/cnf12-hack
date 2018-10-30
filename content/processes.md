@@ -3,9 +3,9 @@ title: "VI. Processes"
 url: /processes-talk
 date: "2018-09-01"
 description: "codebase stuff."
-image: "img/unsplash-photos-nehfi_SfqtU.jpg"
+image: "img/unsplash-photos-vHnVtLK8rCc.jpg"
 credit: "https://unsplash.com/photos/nehfi_SfqtU"
-thumbnail: "img/unsplash-photos-nehfi_SfqtU.tn-500x500.jpg"
+thumbnail: "img/unsplash-photos-vHnVtLK8rCc.tn-500x500.jpg"
 categories:
 ---
 ### Execute the app as one or more stateless processes

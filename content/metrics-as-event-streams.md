@@ -3,9 +3,9 @@ title: "XVII. Metrics"
 url: /metrics-as-event-streams-talk
 date: "2018-09-01"
 description: "codebase stuff."
-image: "img/unsplash-photos-nehfi_SfqtU.jpg"
-credit: "https://unsplash.com/photos/nehfi_SfqtU"
-thumbnail: "img/unsplash-photos-nehfi_SfqtU.tn-500x500.jpg"
+image: "img/markus-spiske-711232-unsplash.jpg"
+credit: "Photo by Markus Spiske on Unsplash"
+thumbnail: "img/markus-spiske-711232-unsplash-tn.jpg"
 categories:
 - Demo
 ---

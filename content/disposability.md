@@ -3,9 +3,9 @@ title: "VIIII. Disposability"
 url: /disposability-talk
 date: "2018-09-01"
 description: "codebase stuff."
-image: "img/unsplash-photos-nehfi_SfqtU.jpg"
-credit: "https://unsplash.com/photos/nehfi_SfqtU"
-thumbnail: "img/unsplash-photos-nehfi_SfqtU.tn-500x500.jpg"
+image: "img/ian-keefe-661408-unsplash.jpg"
+credit: "Photo by Ian Keefe on Unsplash"
+thumbnail: "img/ian-keefe-661408-unsplash-tn.jpg"
 categories:
 - Demo
 ---

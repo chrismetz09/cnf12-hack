@@ -1,11 +1,11 @@
 ---
-title: "XIII. Do not require kernel modifications or modules"
+title: "XIII. Do Not Require Kernel Modifications or Modules"
 url: /processes-containers-talk
 date: "2018-09-01"
 description: "codebase stuff."
-image: "img/unsplash-photos-nehfi_SfqtU.jpg"
-credit: "https://unsplash.com/photos/nehfi_SfqtU"
-thumbnail: "img/unsplash-photos-nehfi_SfqtU.tn-500x500.jpg"
+image: "img/jon-flobrant-168054-unsplash.jpg"
+credit: "Photo by Jon Flobrant on Unsplash"
+thumbnail: "img/jon-flobrant-168054-unsplash-tn.jpg"
 categories:
 - Demo
 draft: true

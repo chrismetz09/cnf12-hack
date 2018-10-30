@@ -3,9 +3,9 @@ title: "XI. Logs"
 url: /logs-talk
 date: "2018-09-01"
 description: "codebase stuff."
-image: "img/unsplash-photos-nehfi_SfqtU.jpg"
-credit: "https://unsplash.com/photos/nehfi_SfqtU"
-thumbnail: "img/unsplash-photos-nehfi_SfqtU.tn-500x500.jpg"
+image: "img/richard-lee-500313-unsplash.jpg"
+credit: "Photo by Richard Lee on Unsplash"
+thumbnail: "img/richard-lee-500313-unsplash-tn.jpg"
 categories:
 - Demo
 ---

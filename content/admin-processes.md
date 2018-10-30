@@ -1,11 +1,11 @@
 ---
-title: "XII. Admin processes"
+title: "XII. Admin Processes"
 url: /admin-processes-talk
 date: "2018-09-01"
 description: "codebase stuff."
-image: "img/unsplash-photos-nehfi_SfqtU.jpg"
-credit: "https://unsplash.com/photos/nehfi_SfqtU"
-thumbnail: "img/unsplash-photos-nehfi_SfqtU.tn-500x500.jpg"
+image: "img/blake-connally-435076-unsplash.jpg"
+credit: "Photo by Blake Connally on Unsplash"
+thumbnail: "img/blake-connally-435076-unsplash-tn.jpg"
 categories:
 - Demo
 ---
