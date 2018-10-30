@@ -3,9 +3,9 @@ title: "IV. Backing services"
 url: /backing-services-talk
 date: "2018-09-01"
 description: "codebase stuff."
-image: "img/unsplash-photos-nehfi_SfqtU.jpg"
-credit: "https://unsplash.com/photos/nehfi_SfqtU"
-thumbnail: "img/unsplash-photos-nehfi_SfqtU.tn-500x500.jpg"
+image: "img/michal-dolnik-1122764-unsplash.jpg"
+credit: "Photo by Michal Dolnik on Unsplash"
+thumbnail: "img/michal-dolnik-1122764-unsplash-tn.jpg"
 categories:
 - Demo
 ---
